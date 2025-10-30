@@ -1,0 +1,38 @@
+Eco-Vision/
+│
+├── 📄 README.md                # Project overview and usage details
+├── 📄 requirements.txt         # Python dependencies
+├── 📄 .gitignore               # Ignore unnecessary files
+├── 📄 LICENSE                  # Open-source license (MIT)
+│
+├── 📂 dataset/                 # Dataset (or sample images)
+│   ├── train/
+│   ├── test/
+│   └── sample_data/
+│
+├── 📂 models/                  # Saved/trained AI models
+│   ├── waste_classifier.h5
+│   └── model_info.json
+│
+├── 📂 scripts/                 # Python scripts
+│   ├── train_model.py          # Code for model training
+│   ├── predict.py              # Inference / waste classification script
+│   ├── preprocess.py           # Image preprocessing functions
+│   └── utils.py                # Helper functions
+│
+├── 📂 iot/                     # IoT integration (optional)
+│   ├── esp32_camera_code.ino   # ESP32 + Camera module code
+│   └── node_red_flows.json     # Node-RED flow export
+│
+├── 📂 app/                     # Web / dashboard components
+│   ├── app.py                  # Flask / Streamlit web app
+│   ├── static/                 # CSS, JS, or assets
+│   └── templates/              # HTML templates (if Flask)
+│
+├── 📂 docs/                    # Documentation and reports
+│   ├── project_report.pdf
+│   ├── architecture_diagram.png
+│   └── presentation_slides.pptx
+│
+└── 📂 logs/                    # Training or runtime logs
+    └── training_log.txt
